@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Privacy policy for the Dino Merge game for iPhone, published by ZJ Studios.">
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; }
+  img { max-width: 100%; }
+</style>
+<title>Dino Merge Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+
+<style>
+  :root {
+    --paper:        #FCFAF6;
+    --surface:      #F4EFE6;
+    --ink:          #23201B;
+    --ink-soft:     #5C564C;
+    --ink-faint:    #8A8377;
+    --rule:         #E2DACD;
+    --rule-strong:  #CDC2AF;
+    --accent:       #8A5424;
+    --accent-soft:  #F0E4D4;
+
+    --sans: "Archivo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --serif: "Newsreader", Georgia, "Times New Roman", serif;
+
+    --measure: 66ch;
+    --step-0: 1.0625rem;
+    --step-1: 1.25rem;
+    --step-2: 1.5rem;
+    --step-3: 2.125rem;
+    --step-4: 2.75rem;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:       #16140F;
+      --surface:     #1F1C16;
+      --ink:         #EDE7DC;
+      --ink-soft:    #B4ABA0;
+      --ink-faint:   #8A8277;
+      --rule:        #2E2A22;
+      --rule-strong: #453F34;
+      --accent:      #D79A5C;
+      --accent-soft: #2A2118;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper:       #16140F;
+    --surface:     #1F1C16;
+    --ink:         #EDE7DC;
+    --ink-soft:    #B4ABA0;
+    --ink-faint:   #8A8277;
+    --rule:        #2E2A22;
+    --rule-strong: #453F34;
+    --accent:      #D79A5C;
+    --accent-soft: #2A2118;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: var(--step-0);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 78ch;
+    margin: 0 auto;
+    padding: clamp(2rem, 5vw, 4.5rem) clamp(1.25rem, 5vw, 3rem) 5rem;
+  }
+
+  /* ---------- masthead ---------- */
+  .masthead { border-bottom: 2px solid var(--rule-strong); padding-bottom: 1.75rem; }
+
+  .eyebrow {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 0.6875rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 0.85rem;
+  }
+
+  h1 {
+    font-family: var(--sans);
+    font-weight: 700;
+    font-size: clamp(2rem, 5.5vw, var(--step-4));
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+    margin: 0 0 0.6rem;
+  }
+
+  .standfirst {
+    margin: 0;
+    max-width: var(--measure);
+    color: var(--ink-soft);
+    font-size: var(--step-1);
+    line-height: 1.55;
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 2.5rem;
+    margin-top: 1.75rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+  }
+  .meta div { padding: 0.35rem 0; }
+  .meta dt {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 0.625rem;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin: 0 0 0.15rem;
+  }
+  .meta dd {
+    margin: 0;
+    font-family: var(--sans);
+    font-weight: 500;
+    font-size: 0.9375rem;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- summary panel ---------- */
+  .summary {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    padding: 1.5rem 1.75rem;
+    margin: 2.75rem 0 0;
+  }
+  .summary h2 {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 0.6875rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 0.75rem;
+  }
+  .summary p { margin: 0; max-width: var(--measure); }
+
+  /* ---------- sections ---------- */
+  section { margin-top: 3rem; max-width: var(--measure); }
+
+  h2.section-title {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: var(--step-2);
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+    text-wrap: balance;
+    margin: 0 0 0.9rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--rule);
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+  }
+  h2.section-title .num {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    flex: none;
+  }
+
+  h3 {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 1.0625rem;
+    margin: 1.85rem 0 0.5rem;
+    color: var(--ink);
+  }
+
+  p { margin: 0 0 1rem; }
+  section p:last-child { margin-bottom: 0; }
+
+  ul { margin: 0 0 1rem; padding-left: 1.15rem; }
+  li { margin-bottom: 0.5rem; }
+  li::marker { color: var(--accent); }
+
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+  strong { font-weight: 600; }
+
+  /* ---------- data table ---------- */
+  .table-scroll { overflow-x: auto; margin: 1.25rem 0; }
+  table {
+    width: 100%;
+    min-width: 34rem;
+    border-collapse: collapse;
+    font-family: var(--sans);
+    font-size: 0.9375rem;
+  }
+  caption {
+    text-align: left;
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 0.625rem;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    padding-bottom: 0.6rem;
+  }
+  th {
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.6875rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    padding: 0 0.9rem 0.55rem 0;
+    border-bottom: 1px solid var(--rule-strong);
+  }
+  td {
+    padding: 0.7rem 0.9rem 0.7rem 0;
+    border-bottom: 1px solid var(--rule);
+    color: var(--ink-soft);
+    vertical-align: top;
+  }
+  td:first-child { color: var(--ink); font-weight: 500; }
+  th:last-child, td:last-child { padding-right: 0; }
+
+  .tag {
+    display: inline-block;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    white-space: nowrap;
+  }
+
+  /* ---------- footer ---------- */
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid var(--rule-strong);
+    max-width: var(--measure);
+    font-family: var(--sans);
+    font-size: 0.875rem;
+    color: var(--ink-faint);
+  }
+  footer p { margin: 0 0 0.4rem; }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow">ZJ Studios</p>
+    <h1>Dino Merge Privacy Policy</h1>
+    <p class="standfirst">
+      This policy explains what Dino Merge does with information on your device. The short version
+      is that the game keeps your progress on your phone and sends nothing about you anywhere.
+    </p>
+    <dl class="meta">
+      <div>
+        <dt>Effective date</dt>
+        <dd>3 September 2026</dd>
+      </div>
+      <div>
+        <dt>Applies to</dt>
+        <dd>Dino Merge for iPhone, version 1.0</dd>
+      </div>
+      <div>
+        <dt>Published by</dt>
+        <dd>ZJ Studios</dd>
+      </div>
+    </dl>
+  </header>
+
+  <div class="summary">
+    <h2>In plain words</h2>
+    <p>
+      We do not ask for your name, your email address or any account. We do not show advertising in
+      this version. We do not use analytics or tracking, and we never sell or share information about
+      you. Your scores and settings stay in the game's own storage on your device, and deleting the
+      app deletes them.
+    </p>
+  </div>
+
+  <section>
+    <h2 class="section-title"><span class="num">01</span> Who we are</h2>
+    <p>
+      Dino Merge is published by ZJ Studios. In this policy, "we" and "us" mean ZJ Studios, and "the
+      game" means the Dino Merge app for iPhone.
+    </p>
+    <p>
+      If you have a question about this policy, write to
+      <a href="mailto:zain.javaid545@gmail.com">zain.javaid545@gmail.com</a> and we will reply.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title"><span class="num">02</span> Information we collect</h2>
+    <p>
+      <strong>We collect no personal information.</strong> The game has no sign up, no login and no
+      user profile. We do not ask for your name, email address, phone number, contacts, photos,
+      location, microphone or camera, and the app never requests permission to use them.
+    </p>
+    <p>
+      The game does save a small amount of gameplay information so that your progress survives when
+      you close it. This information stays in the app's own storage on your iPhone. We cannot see it,
+      and it is not sent to us or to anyone else.
+    </p>
+
+    <div class="table-scroll">
+      <table>
+        <caption>What the game saves on your device</caption>
+        <thead>
+          <tr>
+            <th scope="col">Saved item</th>
+            <th scope="col">Why</th>
+            <th scope="col">Where it goes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Current score and best score</td>
+            <td>So the game can show your personal best</td>
+            <td><span class="tag">Device only</span></td>
+          </tr>
+          <tr>
+            <td>Local leaderboard entries</td>
+            <td>The in game ranking screen, which uses made up opponent names generated on your device</td>
+            <td><span class="tag">Device only</span></td>
+          </tr>
+          <tr>
+            <td>Powerup counts</td>
+            <td>So powerups you have earned are still there next time</td>
+            <td><span class="tag">Device only</span></td>
+          </tr>
+          <tr>
+            <td>Daily reward streak</td>
+            <td>To work out which daily reward is due</td>
+            <td><span class="tag">Device only</span></td>
+          </tr>
+          <tr>
+            <td>Sound, music and vibration settings</td>
+            <td>To remember how you like to play</td>
+            <td><span class="tag">Device only</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title"><span class="num">03</span> Internet connections the game makes</h2>
+    <p>
+      The game works offline. It makes two kinds of connection, and neither one sends any information
+      about you or your gameplay.
+    </p>
+    <ul>
+      <li>
+        <strong>A connection check.</strong> Before granting a daily reward, the game asks a Google
+        endpoint whether the device is online. The request carries no data about you.
+      </li>
+      <li>
+        <strong>A clock check.</strong> The game reads the current world time from
+        <a href="https://worldtimeapi.org" rel="noopener noreferrer" target="_blank">worldtimeapi.org</a>
+        so that daily rewards follow real days and cannot be unlocked early by changing the device
+        clock. The game asks only for the time and sends nothing else.
+      </li>
+    </ul>
+    <p>
+      As with any internet request, the service that answers can see the network address the request
+      came from. That is a normal part of how the internet works and we do not receive or store it.
+      If the device is offline, both checks fail quietly and the game carries on.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title"><span class="num">04</span> Advertising and tracking</h2>
+    <p>
+      Version 1.0 of Dino Merge for iPhone <strong>does not show advertising</strong>. It does not use
+      an advertising identifier, it does not ask permission to track you across other apps or
+      websites, and it contains no analytics or crash reporting service.
+    </p>
+    <p>
+      If a future version adds advertising, we will update this policy before that version is
+      released and describe what the advertising provider receives.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title"><span class="num">05</span> Purchases</h2>
+    <p>
+      Version 1.0 contains no purchases of any kind. The game is free and every feature in it is free.
+      We never see or handle payment details.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title"><span class="num">06</span> Children</h2>
+    <p>
+      Dino Merge is a simple puzzle game suitable for all ages. Because the game collects no personal
+      information from anybody, it collects none from children either. We do not knowingly gather
+      information from a child, and there is nothing in the game for a child to submit.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title"><span class="num">07</span> Your control over saved data</h2>
+    <p>
+      Everything the game saves lives on your device. You can clear all of it at any time by deleting
+      the app from your iPhone, which removes the game's storage along with it. Reinstalling gives you
+      a fresh start.
+    </p>
+    <p>
+      Because we hold no information about you on our side, there is nothing for us to look up, export
+      or delete on request. If you would like that confirmed in writing, write to us at the address
+      below and we will confirm it.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title"><span class="num">08</span> Security</h2>
+    <p>
+      Game data is stored using the standard app storage that iOS provides, inside the app's own
+      sandbox, so other apps on the device cannot read it. Since no personal information leaves your
+      device, there is no transfer of your data for anyone to intercept.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title"><span class="num">09</span> Changes to this policy</h2>
+    <p>
+      If we change how the game handles information, we will publish an updated policy at this address
+      and change the effective date at the top. Significant changes, such as adding advertising or
+      accounts, will be described in the app update notes as well.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title"><span class="num">10</span> Contact</h2>
+    <p>
+      ZJ Studios<br>
+      Lahore, Pakistan<br>
+      <a href="mailto:zain.javaid545@gmail.com">zain.javaid545@gmail.com</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>Dino Merge and this policy are published by ZJ Studios.</p>
+    <p>Last reviewed 3 September 2026.</p>
+  </footer>
+  <p style="font-family:var(--sans);font-size:.9rem;margin-top:1rem"><a href="index.html">ZJ Studios</a> &nbsp;/&nbsp; <a href="support.html">Support and help</a></p>
+
+</div>
+
+</body>
+</html>

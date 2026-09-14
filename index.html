@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZJ Studios</title>
+<meta name="description" content="ZJ Studios makes mobile games. Support and privacy information for Dino Merge.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400&display=swap">
+<style>
+  :root{
+    --paper:#FCFAF6; --surface:#F4EFE6; --ink:#23201B; --ink-soft:#5C554B;
+    --ink-faint:#8A8377; --rule:#E2DACD; --rule-strong:#CDC2AF;
+    --accent:#8A5424; --accent-soft:#F0E4D4;
+    --sans:"Archivo","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --paper:#16140F; --surface:#1F1C16; --ink:#EDE7DC; --ink-soft:#B4ABA0;
+      --ink-faint:#8A8277; --rule:#2E2A22; --rule-strong:#453F34;
+      --accent:#D79A5C; --accent-soft:#2A2118;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+       font-family:var(--serif);font-size:1.0625rem;line-height:1.65;
+       -webkit-font-smoothing:antialiased}
+  .wrap{max-width:62ch;margin:0 auto;padding:clamp(2.5rem,7vw,5.5rem) clamp(1.25rem,5vw,2rem) 5rem}
+
+  .eyebrow{font-family:var(--sans);font-weight:600;font-size:.6875rem;letter-spacing:.14em;
+           text-transform:uppercase;color:var(--accent);margin:0 0 .85rem}
+  h1{font-family:var(--sans);font-weight:700;font-size:clamp(2rem,6vw,2.75rem);
+     line-height:1.08;letter-spacing:-.02em;margin:0 0 .7rem}
+  .lede{margin:0;color:var(--ink-soft);font-size:1.2rem;line-height:1.55}
+  header{border-bottom:2px solid var(--rule-strong);padding-bottom:1.75rem}
+
+  h2{font-family:var(--sans);font-weight:600;font-size:1.3rem;letter-spacing:-.01em;
+     margin:0 0 1rem;padding-bottom:.55rem;border-bottom:1px solid var(--rule)}
+  section{margin-top:2.75rem}
+  p{margin:0 0 1rem}
+
+  .cards{display:grid;gap:.85rem}
+  a.card{display:block;text-decoration:none;color:inherit;
+         background:var(--surface);border:1px solid var(--rule);border-radius:8px;
+         padding:1.1rem 1.25rem;transition:border-color .15s}
+  a.card:hover{border-color:var(--accent)}
+  a.card:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+  a.card .t{font-family:var(--sans);font-weight:600;font-size:1.0625rem;
+            color:var(--accent);margin:0 0 .2rem}
+  a.card .d{margin:0;font-size:.95rem;color:var(--ink-soft)}
+
+  .contact{font-family:var(--sans);font-weight:600;font-size:1.0625rem}
+  a{color:var(--accent)}
+  footer{margin-top:3.5rem;padding-top:1.4rem;border-top:2px solid var(--rule-strong);
+         font-family:var(--sans);font-size:.875rem;color:var(--ink-faint)}
+  footer p{margin:0 0 .35rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">ZJ Studios</p>
+    <h1>ZJ Studios</h1>
+    <p class="lede">We make small mobile games. Lahore, Pakistan.</p>
+  </header>
+
+  <section>
+    <h2>Dino Merge: Jurassic Drop</h2>
+    <p>
+      A calm dinosaur merge puzzle for iPhone and iPad. Drop a dinosaur, match two of the
+      same kind, and work your way up to the T-Rex. Free to play, no ads, works offline.
+    </p>
+    <div class="cards">
+      <a class="card" href="support.html">
+        <p class="t">Support and help</p>
+        <p class="d">How to play, the powerups, common questions and how to reach us</p>
+      </a>
+      <a class="card" href="privacy.html">
+        <p class="t">Privacy policy</p>
+        <p class="d">What the game saves, where it stays, and what we never collect</p>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p class="contact"><a href="mailto:zain.javaid545@gmail.com">zain.javaid545@gmail.com</a></p>
+    <p>Write to us with any question about our games and we will reply.</p>
+  </section>
+
+  <footer>
+    <p>ZJ Studios, Lahore, Pakistan.</p>
+    <p>Last updated 14 September 2026.</p>
+  </footer>
+
+</div>
+</body>
+</html>
